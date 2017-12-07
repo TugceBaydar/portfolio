@@ -1,0 +1,425 @@
+/*============================================
+
+  * Author      : Abdelaziz Slim
+  * Project     : Friend_814
+  * Version     : 1.0
+
+----------------------------------------------
+            *** TABLE OF CONTENTS ***
+----------------------------------------------
+  * 01. Xsmall devices -> max-width: 766px
+  * 02. small devices  -> min-width: 767px & max-width: 991px
+  * 03. medium devices -> min-width: 992px & max-width: 1199px
+==============================================*/
+
+/*----------------------------------------------
+*   01. Xsmall devices
+*----------------------------------------------*/
+@media(max-width:766px)
+{
+    body{
+        font-size: 12px;
+    }
+    .mt_20{
+        margin-top: 10px !important;
+    }
+    .line_height28{
+        line-height: 26px !important;
+    }
+    
+    h2{
+        font-size: 1.9em;
+    }
+    h2:before{
+        width: 38px;
+        height: 3px;
+        bottom: -7px;
+    }
+    h3{
+        font-size: 1.6em;
+        letter-spacing: 1px;
+    }
+    a,a:hover,a:focus{
+        text-decoration: none;
+        outline: 0;
+    }
+    .section_padding{
+        padding: 80px 0 !important;
+    }
+
+    .navbar{
+        height: 60px;
+    }
+    nav .navbar-header .navbar-brand,
+    nav.active .navbar-header .navbar-brand{
+        height: 60px;
+        padding: 0;
+        margin-left: 30px;
+        line-height: 60px;
+    }
+    nav .navbar-toggle{
+        position: absolute;
+        display: block;
+        float: right;
+        right: 0px;
+        height: 60px;
+        width: 35px;
+        padding: 0;
+        background-color: transparent;
+        border-width: 0px;
+        z-index: 99;
+        margin: 0;
+        margin-right: 30px;
+
+    }
+    nav .navbar-toggle span{
+        display: block;
+        height: 3px;
+        margin: 6px auto;
+        background-color: #ddd;
+    }
+    nav .navbar-toggle:hover span,
+    nav .navbar-toggle:focus span{
+        background-color: #fff;
+    }
+    nav .navbar-collapse{
+        border-width: 0px;
+        margin: 0px -30px;
+        padding: 0;
+    }
+    nav .navbar-collapse .navbar-nav{
+        width: 100%;
+        background-color: #000;
+        margin: 0;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        overflow: scroll;
+		max-height: calc(100vh - 60px);
+    }
+    nav .navbar-collapse .navbar-nav li{
+        margin: 0;
+        width: 100%;
+    }
+    nav .navbar-collapse .navbar-nav > li > a{
+        display: block;
+        height: 100%;
+        padding: 10px;
+        padding-left: 3%;
+        margin: 0;
+        text-align: left;
+        -webkit-transition: padding-left 0.2s ease-in-out;
+        transition: padding-left 0.2s ease-in-out;
+    }
+    nav.active .navbar-nav > li > a{
+        margin: 0;
+    }
+    nav .navbar-nav > li > a:hover,
+    nav .navbar-nav > li > a:focus,
+    nav .navbar-nav > li > a.current{
+        border-left: 1px solid;
+        padding-left: 3.5%;
+    }
+    
+    header{
+        min-height: 525px;
+        max-height: 900px;
+    }
+    header .header_content > .myname{
+        font-size: 2.8em;
+        min-width: 310px;
+    }
+    header .header_content > p{
+        font-size: 1.3em;
+    }
+    header .header_content > a{
+        padding: 7px 15px;
+        font-size: 1.1em;
+        line-height: 23px;
+    }
+    
+    .about_us .about_paragraph p{
+        padding-right: 1%;
+    }
+    .about_us .about_picture{
+        margin-top: 4%;
+    }
+    .about_us .about_paragraph a{
+        padding: 7px 15px;
+        font-size: 1.1em;
+        line-height: 25px;
+    }
+    
+    .skills .service_item{
+        padding: 40px 8px;
+        margin-bottom: 2%;
+    }
+    .skills .service_item p{
+        margin-bottom: 28px;
+        padding: 5px 50px;
+        font-size: 1.2em;
+    }
+    
+    .experience ul{
+        margin-top: 40px;
+    }
+    .experience ul li {
+        margin-left: 30px;
+    }
+    .experience ul li div{
+        width: calc(100vw - 120px);
+    }
+    .experience ul li div p{
+        font-size: 1.2em;
+    }
+    .experience ul li:nth-child(even) div{
+        left: 45px;
+        -webkit-transform: translate3d(200px, 0, 0);
+        transform: translate3d(200px, 0, 0);
+    }
+    .experience ul li:nth-child(even) div::before {
+        left: -15px;
+        right: auto;
+        border-width: 8px 16px 8px 0;
+        border-color: transparent #111 transparent transparent;
+    }
+    
+    .works .works_control{
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .works .works_control button {
+        margin-bottom: 15px;
+    }
+    
+    .testimonials .single_testimonial{
+        margin-bottom: 35px;
+        padding-top: 30px;
+    }
+    .testimonials .single_testimonial h3{
+        font-size: 1.7em;
+    }
+    
+    .blog .post{
+        margin-top: 40px !important;
+    }
+    .blog .post h3{
+        font-size: 1.6em;
+    }
+    .blog .post .post_details{
+        padding-top: 2px;
+    }
+    .blog .post .read_more{
+        font-size: 0.95em;
+        padding-top: 1px;
+    }
+    .blog .post .post_img .date{
+        bottom: 0;
+    }
+    
+    .contact_me{
+        margin: 1%;
+        padding: 1.5%;
+    }
+    .contact_me .contact_form{
+        padding: 0;
+    }
+    .contact_me address .contact {
+        text-align: center;
+        border-bottom: 2px solid rgba(255,255,255,.05);
+    } 
+    footer .links .ccopy{
+        margin-top: 15px;
+        font-size: 1em;
+    }
+    footer .links{
+        padding-top: 80px;
+        padding-bottom: 10px;
+    }
+}
+
+/*----------------------------------------------
+*   02. small devices
+*----------------------------------------------*/
+@media(min-width:767px) and (max-width:991px)
+{   
+    body{
+        font-size: 12px;
+    }
+    .mt_20{
+        margin-top: 10px !important;
+    }
+    h3{
+        font-size: 1.6em;
+    }
+    .section_padding{
+        padding: 110px 0;
+    }
+    nav .navbar-nav{
+        width: 70%;
+    }
+    
+    header{
+        min-height: 450px;
+        max-height: 900px;
+    }
+    header .header_content > .myname{
+        min-width: 400px;
+        font-size: 3.3em;
+    }
+    header .header_content > p{
+        font-size: 1.3em;
+    }
+    header .header_content > a{
+        padding: 9px 18px;
+        font-size: 1emm;
+    }
+    
+    .about_us .about_paragraph p{
+        padding-right: 5%;
+    }
+    .about_us .about_paragraph a{
+        padding: 10px 18px;
+    }
+    .about_us .about_picture{
+        margin-top: 4%;
+    }
+    
+    .skills .service_item{
+        margin-bottom: 6%;
+    }
+    .skills .service_item p{
+        margin-bottom: 28px;
+        padding: 5px 50px;
+        font-size: 1.1em;
+    }
+    
+    .experience ul li {
+        margin-left: 30px;
+    }
+    .experience ul li div{
+        width: 600px;
+    }
+    .experience ul li:nth-child(even) div{
+        left: 45px;
+        -webkit-transform: translate3d(200px, 0, 0);
+        transform: translate3d(200px, 0, 0);
+    }
+    .experience ul li:nth-child(even) div::before {
+        left: -15px;
+        right: auto;
+        border-width: 8px 16px 8px 0;
+        border-color: transparent #111 transparent transparent;
+    }
+    
+    .testimonials .single_testimonial{
+        padding-top: 35px;
+    }
+    .testimonials .single_testimonial p{
+        padding: 10px 30px;
+    }
+    .testimonials .single_testimonial p i{
+        padding: 7px;
+    }
+    .testimonials .single_testimonial .testimonial_picture{
+        width: 90px;
+    }
+    
+    .blog .post{
+        margin-bottom: 30px;
+    }
+    .blog .post h3{
+        font-size: 1.3em;
+        margin-top: 10px;
+    }
+    .blog .post .post_details{
+        padding-top: 2px;
+    }
+    .blog .post .read_more{
+        padding-top: 1px;
+    }
+    .blog .post .post_img .date{
+        bottom: 0;
+    }
+    .contact_me address .contact {
+        text-align: center;
+        border-bottom: 2px solid rgba(255,255,255,.05);
+    }
+    .contact_me .contact_form{
+        padding: 20px 0 0 0;
+    }
+    footer .links .ccopy{
+        margin-top: 15px;
+        font-size: 1em;
+    }
+    footer .links{
+        padding-top: 90px;
+        padding-bottom: 20px;
+    }
+}
+
+/*----------------------------------------------
+*   03. medium devices
+*----------------------------------------------*/
+@media(min-width:992px) and (max-width:1199px)
+{
+    body{
+        font-size: 13px;
+    }
+    .mt_20{
+        margin-top: 10px !important;
+    }
+    .section_padding {
+        padding: 120px 0;
+    }
+    header{
+        min-height: 630px;
+        max-height: 850px;
+    }
+    header .header_content > .myname{
+        font-size: 4em;
+        min-width: 450px;
+    }
+    header .header_content > p{
+        font-size: 1.5em;
+    }
+    header .header_content > a{
+        padding: 11px 20px;
+    }
+    
+    .about_us .about_paragraph p{
+        padding-right: 10%;
+    }
+    .about_us .about_picture{
+        margin-top: 10%;
+    }
+    
+    .skills .service_item{
+        padding: 40px 8px;
+    }
+    .skills .service_item p{
+        margin-bottom: 28px;
+    }
+    
+    .testimonials .single_testimonial{
+        padding-top: 33px;
+    }
+
+    .testimonials .single_testimonial p i{
+        padding: 7px;
+    }
+    
+    .blog .post .post_details{
+        padding-top: 8px;
+    }
+    .blog .post .read_more{
+        padding-top: 1px;
+    }
+    
+    footer .links .ccopy{
+        margin-top: 15px;
+    }
+    footer .links{
+        padding-top: 90px;
+        padding-bottom: 20px;
+    }
+}
