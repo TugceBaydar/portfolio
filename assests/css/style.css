@@ -588,7 +588,7 @@ header .to_down:hover i{
     width: 400px;
     padding: 15px;
     box-shadow: 0 0 2px rgba(255,255,255,.8);
-    border: 4px solid #232323;
+    border: 4px solid white;
     visibility: hidden;
     opacity: 0;
     -webkit-transition: all .45s ease-in-out;
@@ -706,6 +706,13 @@ header .to_down:hover i{
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
     width: 100%;
+    height: 308px;
+    object-fit: cover;
+}
+img.mfp-img {
+  width:600px;
+  height:500px;
+  object-fit: cover;
 }
 .works .works_content .mix .work_item .item_caption{
     position: absolute;
@@ -721,6 +728,7 @@ header .to_down:hover i{
     opacity: 0;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
+
 }
 .works .works_content .mix .work_item .item_caption a{
     position: absolute;
@@ -729,6 +737,7 @@ header .to_down:hover i{
     transform: translate(0, -50%);
     left: calc(50% - 45px);
     background-color: transparent;
+
 }
 .works .works_content .mix .work_item .item_caption .popup{
     right: calc(50% - 45px);
@@ -754,6 +763,7 @@ header .to_down:hover i{
     -webkit-filter: blur(15px);
     filter: blur(15px);
 }
+
 .works .works_content .mix .work_item .item_caption a:hover i,
 .works .works_content .mix .work_item .item_caption button:hover i{
     background-color: #fff;
@@ -768,6 +778,9 @@ header .to_down:hover i{
     border-right-width: 0;
 }
 
+.mpf-img {
+  width:400px;
+}
 
 /*----------------------------------------------
 *   09. My Clients
