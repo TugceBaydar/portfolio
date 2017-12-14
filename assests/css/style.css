@@ -17,7 +17,7 @@
 ----------------------------------------------
             *** basic Color Codes ***
 ----------------------------------------------
-    Cyan -> #b30000
+    Cyan -> #fff
     black-> #000
     white-> #fff
     gray-> #232323, #111, #333. #a0a0a0
@@ -49,7 +49,7 @@ h2:before{
     position: absolute;
     width: 50px;
     height: 4px;
-    background-color: #b30000;
+    background-color: rgb(255, 179, 179);
     bottom: -8px;
     left: -2px;
 }
@@ -79,7 +79,7 @@ a,a:hover,a:focus{
 }
 
 .span_color{
-    color: #b30000 !important;
+    color: #ffb3b3 !important;
 }
 .back_color1{
     background-color: #232323 !important;
@@ -101,7 +101,7 @@ a,a:hover,a:focus{
     padding: 4px 12px 1px 12px;
     text-align: center;
     background-color: #000;
-    color: #fff;
+    color: rgb(255, 179, 179);
     cursor: pointer;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
@@ -115,7 +115,7 @@ a,a:hover,a:focus{
     background-color: #000;
     color: #fff;
     opacity: 1;
-    border-color: #b30000;
+    border-color: #fff;
 }
 
 
@@ -147,8 +147,8 @@ a,a:hover,a:focus{
     width: 50%;
     height: 50%;
     border-radius: 50%;
-    border: 3px solid #b30000;
-    box-shadow: 0px 0px 3px #b30000;
+    border: 3px solid rgb(255, 179, 179);
+    box-shadow: 0px 0px 3px rgb(255, 179, 179);
 
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
@@ -288,12 +288,13 @@ nav .navbar-nav > li > a{
 }
 nav.active{
     height: 60px;
-    background-color: rgba(0,0,0,0.95);
-    box-shadow: 0 1px 1px #1e3244;
+    background: linear-gradient(to right,  #1a0000, #404040);
+    box-shadow: 3px 4px 20px #ffb3b361;
 }
 nav.active .navbar-header .navbar-brand{
     height: 60px;
     padding: 20px 15px;
+
 }
 nav.active .navbar-nav > li > a{
     margin: 20px 0;
@@ -302,7 +303,7 @@ nav .navbar-nav > li > a:hover,
 nav .navbar-nav > li > a:focus,
 nav .navbar-nav > li > a.current{
     background-color: transparent !important;
-    color: #b30000 !important;
+    color:  #ff6666 !important;
 }
 
 
@@ -316,6 +317,8 @@ header{
     min-height: 750px;
     max-height: 1000px;
     font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Amatic SC', cursive;*/
+    /*font-family: 'Poiret One', cursive;*/
 
 }
 header .background{
@@ -349,12 +352,13 @@ header .header_content > .myname{
     min-width: 900px;
     font-size: 6em;
     letter-spacing: 3px;
-    color: #fff;
+    color: #f9ecf2;
     font-weight: 900;
+    font-family: 'Poiret One', cursive;
     /*text-shadow: 8px 0 1px #e60000;*/
 }
 header .header_content > p{
-    color: #fff;
+    color: #ffcccc;
     font-size: 2em;
     background-color: rgba(0,0,0,.5);
     padding: 10px 0;
@@ -362,7 +366,7 @@ header .header_content > p{
     background: linear-gradient(to left, rgba(0,0,0,.1), #000, rgba(0,0,0,.1));
 }
 header .header_content > p i{
-    text-shadow: 0 0 2px #b30000;
+    text-shadow: 0 0 2px #fff;
 }
 header .header_content > a{
     background-color: rgba(0,0,0,.6);
@@ -378,7 +382,7 @@ header .header_content > a:hover,
 header .header_content > a:focus{
     color: #fff;
     background-color: #000;
-    border-color: #b30000;
+    border-color: #fff;
 }
 
 header .to_down{
@@ -448,7 +452,7 @@ header .to_down:hover i{
 .about_us .about_paragraph a:focus{
     color: #fff;
     background-color: #000;
-    border-color: #b30000;}
+    border-color: #fff;}
 .about_us .about_picture{
     width: 100%;
     border: 5px solid #111;
@@ -490,7 +494,7 @@ header .to_down:hover i{
     transition: all .3s ease-in-out;
 }
 .skills .service_item:hover i{
-    color: #b30000 !important;
+    color: #fff !important;
 }
 
 .skills .service_item p{
@@ -514,7 +518,7 @@ header .to_down:hover i{
 }
 .skills .service_item .progress-bar{
     position: relative;
-    background-color: #b30000;
+    background-color: #ffb3b3;
 }
 .skills .service_item .progress-bar span{
     position: absolute;
@@ -527,7 +531,7 @@ header .to_down:hover i{
     line-height: 23px;
     color: #000;
     border-radius: 7px;
-    background-color: #b30000;
+    background-color: #fff;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
     opacity: .01;
@@ -545,7 +549,7 @@ header .to_down:hover i{
     height: 8px;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
-    background-color: #b30000;
+    background-color: #fff;
 }
 
 
@@ -579,7 +583,7 @@ header .to_down:hover i{
     background-color: inherit;
 }
 .experience ul li.in-view::after{
-    background: #b30000;
+    background: rgb(255, 179, 179);
 }
 
 .experience ul li div{
@@ -637,12 +641,12 @@ header .to_down:hover i{
     letter-spacing: 2px;
     margin-bottom: 12px;
     margin-top: 15px;
-    text-shadow: 0 0 1px #b30000;
+    text-shadow: 0 0 1px #fff;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
 .experience ul li div time{
-    color: #b30000;
+    color: #ffb3b3;
     font-weight: 700;
 }
 .experience ul li div p{
@@ -661,10 +665,10 @@ header .to_down:hover i{
     background-color: #fff;
 }
 .experience ul li:hover div h3{
-    text-shadow: 0 0 3px #b30000;
+    text-shadow: 0 0 3px #fff;
 }
 .experience ul li:hover div{
-    box-shadow: 0 0 5px #b30000;
+    box-shadow: 0 0 5px #fff;
 }
 
 
@@ -690,8 +694,8 @@ header .to_down:hover i{
 }
 .works .works_control button.mixitup-control-active,
 .works .works_control button:hover{
-    border-color: #b30000;
-    box-shadow: 0 0 2px #b30000;
+    border-color: #fff;
+    box-shadow: 0 0 2px #fff;
     opacity: 1;
 }
 .works .works_content .mix{
@@ -747,7 +751,7 @@ img.mfp-img {
 .works .works_content .mix .work_item .item_caption i{
     padding: 10px 9px 8px 8px;
     box-shadow: 0 0 3px #fff;
-    color: #b30000;
+    color: #fff;
     font-size: 1.5em;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -801,7 +805,7 @@ img.mfp-img {
     bottom: -3px;
     height: 3px;
     width: 0;
-    background-color: #b30000;
+    background-color: #fff;
     -webkit-transition: width .5s ease-in-out;
     transition: width .5s ease-in-out;
 }
@@ -817,8 +821,8 @@ img.mfp-img {
     transform: translate(-50%,0);
     border-radius: 50%;
     overflow: hidden;
-    border: 2px solid #b30000;
-    box-shadow: 0 0 3px #b30000;
+    border: 2px solid #fff;
+    box-shadow: 0 0 3px #fff;
 }
 .testimonials .single_testimonial:hover .testimonial_picture{
     border-color: #fff;
@@ -830,7 +834,7 @@ img.mfp-img {
 }
 
 .testimonials .single_testimonial h3{
-    text-shadow: 0 0 2px #b30000;
+    text-shadow: 0 0 2px #fff;
     letter-spacing: 1px;
     margin-bottom: 5px;
     opacity: 0.85;
@@ -855,7 +859,7 @@ img.mfp-img {
     display: block;
     padding: 10px;
     opacity: 1;
-    text-shadow: 1px 1px 1px #b30000;
+    text-shadow: 1px 1px 1px #fff;
 
 }
 
@@ -874,7 +878,7 @@ img.mfp-img {
     top: -3px;
     height: 3px;
     width: 0;
-    background-color: #b30000;
+    background-color: #fff;
     -webkit-transition: width .5s ease-in-out;
     transition: width .5s ease-in-out;
 }
@@ -907,7 +911,7 @@ img.mfp-img {
 .blog .post h3{
     padding-top: 7px;
     letter-spacing: 2px;
-    text-shadow: 0 0 1px #b30000;
+    text-shadow: 0 0 1px #fff;
     opacity: 0.9;
 }
 .blog .post .post_title{
@@ -919,7 +923,7 @@ img.mfp-img {
 .blog .post .post_title i,
 .blog .post .post_img .date i{
     font-size: 1.15em;
-    color: #b30000;
+    color: #fff;
     text-shadow: 1px 1px 3px #000;
     margin: 0 3px;
 }
@@ -951,7 +955,7 @@ img.mfp-img {
     margin-left: 12px;
 }
 .blog .post .read_more:hover{
-    color: #b30000 !important;
+    color: #fff !important;
 }
 
 
@@ -968,7 +972,7 @@ img.mfp-img {
     margin-bottom: 15px
 }
 .contact_me address .contact i{
-    color: #b30000;
+    color: #fff;
     font-size: 2.1em;
     text-shadow: 0 0 25px #019787;
     display: block;
@@ -996,7 +1000,7 @@ img.mfp-img {
     background-color: transparent;
     border-width: 0;
     border-radius: 0;
-    border-bottom: 2px solid #b30000;
+    border-bottom: 2px solid #fff;
     box-shadow: 0 0 0;
     -webkit-transition: all .2s linear;
     transition: all .2s linear;
@@ -1026,9 +1030,9 @@ img.mfp-img {
     width: 140px;
     height: 42px;
     border-radius: 0;
-    border: 2px solid #b30000;
+    border: 2px solid #fff;
     background-color: transparent;
-    color: #b30000;
+    color: #fff;
     letter-spacing: 1px;
     line-height: 28px;
     opacity: 0.55;
@@ -1057,7 +1061,7 @@ footer .links a > i{
     margin-right: 5px;
 }
 footer .links a > i:hover{
-    color: #b30000 !important;
+    color: #fff !important;
 }
 footer .links .ccopy{
     margin-top: 25px;
