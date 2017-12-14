@@ -288,7 +288,7 @@ nav .navbar-nav > li > a{
 }
 nav.active{
     height: 60px;
-    background: linear-gradient(to right,  #1a0000, #404040);
+    background: linear-gradient(to right,  #362e2e, #c8abab);
     box-shadow: 3px 4px 20px #ffb3b361;
 }
 nav.active .navbar-header .navbar-brand{
